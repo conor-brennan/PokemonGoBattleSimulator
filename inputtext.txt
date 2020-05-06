@@ -1,0 +1,72 @@
+type  fire  ground rock water  fairy ice grass fire steel bug  none
+type  water  grass electric  steel fire water ice  none
+type  grass  flying poison bug fire ice  ground water grass electric  none
+type  electric  ground  flying steel electric  none
+type  ground  water grass ice  poison rock  electric
+type  rock  fighting ground steel water grass  normal flying poison fire  none
+type  ice  fighting rock fire steel  ice  none
+type  fighting  flying psychic fairy  rock bug dark  none
+type  bug  fire flying rock  fighting ground grass  none
+type  psychic  bug ghost dark  fighting psychic  none
+type  dark  fighting bug fairy  dark ghost  psychic
+type  ghost  dark ghost  poison bug  normal fighting
+type  dragon  ice dragon fairy  water grass fire electric  none
+type  steel  fighting ground fire  normal flying rock bug steel grass psychic ice dragon fairy  poison
+type  fairy  poison steel  dark bug fighting  dragon
+type  normal  fighting  none  ghost
+type  flying  rock electric ice  fighting bug grass  ground
+type  poison  psychic ground  fighting poison bug grass fairy  none
+type  n/a  none  none  none
+
+qmove  lockon  1  5  1  normal
+qmove  dragonbreath  4  3  1  dragon
+qmove  counter  8  7  2  fighting
+qmove  confusion  16  12  4  psychic
+qmove  bubble  8  11  3  water
+qmove  airslash  9  9  3  flying
+qmove  shadowclaw  6  8  2  ghost
+qmove  thundershock  3  9  2  electric
+qmove  watergun  3  3  1  water
+qmove  mudshot  3  9  2  ground
+qmove  razorleaf  11  4  2  grass
+qmove  snarl  5  13  3  dark
+
+cmove  hydrocannon  90  -40  water
+cmove  frenzyplant  100  -45  grass
+cmove  blastburn  110  -50  fire
+cmove  leafblade  70  -35  grass
+cmove  focusblast  150  -75  fighting
+cmove  avalanche  90  -45  ice
+cmove  dracometeor  150  -75  dragon
+cmove  meteormash  100  -50  steel
+cmove  zapcannon  150  -80  electric
+cmove  solarbeam  150  -80  grass
+cmove  earthquake  120  -65  ground
+cmove  outrage  110  -60  dragon
+cmove  shadowball  100  -55  ghost
+cmove  stoneedge  100  -55  rock
+cmove  dynamicpunch  90  -50  fighting
+cmove  wildcharge  90  -50  electric
+cmove  grassknot  90  -50  grass
+cmove  rockslide  80  -45  rock
+cmove  skyattack  80  -45  flying
+cmove  icebeam  90  -55  ice
+cmove  psychic  90  -55  psychic
+cmove  dragonpulse  90  -60  dragon
+cmove  flashcannon  110  -65  steel
+cmove  hydropump  130  -75  water
+cmove  aerialace  55  -45  grass
+cmove  powergem  80  -60  rock
+cmove  foulplay  70  -45  dark
+cmove  psychoboost  70  -40  psychic
+
+pokemon  sableye  141  136  137  ghost  dark  shadowclaw  foulplay  powergem
+pokemon  tropius  136  163  223  grass  flying  razorleaf  leafblade  aerialace
+pokemon  azumarill  112  152  225  water  fairy  bubble  icebeam  hydropump
+pokemon  skarmory  148  226  163  steel  flying  airslash  skyattack  flashcannon
+pokemon  swampert  208  175  225  ground  water  mudshot  earthquake  hydrocannon
+pokemon  altaria  141  201  181  dragon  flying  dragonbreath  dragonpulse  skyattack
+pokemon  registeel  143  285  190  steel  n/a  lockon  flashcannon  dynamicpunch
+pokemon  poliwrath  182  184  207  water  fighting  bubble  dynamicpunch  icebeam
+pokemon  medicham  121  152  155  fighting  psychic  counter  psycic  icebeam
+pokemon  deoxysd  144  330  137  psychic  n/a  counter  rockslide  psychoboost
